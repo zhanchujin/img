@@ -1,0 +1,30 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7409510",
+      "name": "背景图",
+      "font_class": "beijingtu",
+      "unicode": "e69b",
+      "unicode_decimal": 59035
+    },
+    {
+      "icon_id": "7738013",
+      "name": "形状",
+      "font_class": "xingzhuang",
+      "unicode": "e606",
+      "unicode_decimal": 58886
+    },
+    {
+      "icon_id": "9626955",
+      "name": "文字",
+      "font_class": "wenzi",
+      "unicode": "e883",
+      "unicode_decimal": 59523
+    }
+  ]
+}

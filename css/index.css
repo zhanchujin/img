@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    height: 528px;
+    background: url(../images/top-bg.png);
+}
+
+.menu {
+    height: 100px;
+}
+
+.menu h1 {
+    float: left;
+}
+
+.title {
+    height: 100px;
+    background: url(../images/adtext.png) no-repeat center center;
+}
+
+.start {
+    height: 165px;
+}
+
+.start button {
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 80px;
+    background-color: #1e3034;
+    color: #fff;
+    font-size: 30px;
+    width: 296px;
+    height: 94px;
+    display: block;
+    margin: 0 auto;
+    border: 6px solid #e9524b;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.show {
+    width: 1318px;
+    margin: -20px auto 0 auto;
+}
+
+.show ul {
+    position: relative;
+}
+
+.show ul::before,
+.show ul::after {
+    width: 75px;
+    height: 75px;
+    background: #ff9300;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    font-size: 30px;
+    line-height: 75px;
+    text-align: center;
+    color: #fff;
+}
+
+.show ul::before {
+    content: "<";
+    left: -100px;
+}
+
+.show ul::after {
+    content: ">";
+    right: -100px;
+    clear: both;
+}
+
+.show ul li {
+    box-sizing: border-box;
+    width: 328px;
+    height: 197px;
+    float: left;
+    padding: 0 10px;
+    margin: 20px 0;
+}
+
+.show ul li a {
+    display: block;
+    height: 197px;
+    border: 5px solid rgb(201, 102, 9);
+    background-image: url(../images/qiche.jpg);
+}
+
+.foot-title {
+    line-height: 50px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(75, 75, 75);
+}

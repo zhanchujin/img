@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-image: url(../images/bodybg.jpg);
+}
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+.top {
+  height: 80px;
+  background-color: #ab1e24;
+  position: relative;
+}
+
+.top .logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.top p {
+  line-height: 80px;
+  text-align: center;
+  font-size: 46px;
+  font-weight: bold;
+  color: #dff3e2;
+  text-shadow: 2px 2px 5px rgb(6, 90, 90);
+}
+
+.top .index {
+  position: absolute;
+  top: 0;
+  right: 100px;
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 80px;
+  background-color: #f07e0e;
+  padding: 0 30px;
+  font-weight: bold;
+  transition: all .5s;
+}
+.top .index:hover {
+  background-color: rgb(185, 89, 10);
+}
+
+.left {
+  width: 400px;
+  position: fixed;
+  top: 200px;
+  left: 10px;
+}
+.left img {
+  width: 400px;
+}
+.right {
+  width: 400px;
+  position: fixed;
+  top: 150px;
+  right: 100px;
+}
+.right img {
+  width: 400px;
+}
+#wrap {
+  width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+#wrap li {
+  box-sizing: border-box;
+  width: 800px;
+  padding: 10px;
+  background-color: azure;
+  margin: 30px;
+  transition: all 1s;
+  cursor: pointer;
+}
+
+#wrap li img {
+  width: 100%;
+}
+
+#wrap li:nth-child(even) {
+  transform: translateX(100px) rotateZ(7deg);
+}
+
+#wrap li:nth-child(odd) {
+  transform: translateX(-100px) rotateZ(-7deg);
+}
+
+#wrap li:nth-child(even):hover {
+  transform: rotateZ(0deg) scale(1.2);
+  position: relative;
+  z-index: 3;
+}
+
+#wrap li:nth-child(odd):hover {
+  transform: rotateZ(0deg) scale(1.2);
+  position: relative;
+  z-index: 3;
+}
